@@ -55,15 +55,15 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Combat\Attack.cs" />
-    <Compile Include="Assets\Scripts\Combat\AttackDefinition.cs" />
-    <Compile Include="Assets\Scripts\Combat\CombatMouseTest.cs" />
+    <Compile Include="Assets\Scripts\Combat\ScriptableObjects\AttackEffects\AttackEffect.cs" />
+    <Compile Include="Assets\Scripts\Combat\ScriptableObjects\AttackEffects\AttackDebugEffect.cs" />
     <Compile Include="Assets\Scripts\Combat\IAttackable.cs" />
-    <Compile Include="Assets\Scripts\Combat\AttackEffect.cs" />
+    <Compile Include="Assets\Scripts\Combat\ScriptableObjects\AttackEffects\KnockbackAttackEffect.cs" />
+    <Compile Include="Assets\Scripts\Combat\ScriptableObjects\AttackDefinition.cs" />
     <Compile Include="Assets\Scripts\Combat\IAttackEffect.cs" />
-    <Compile Include="Assets\Scripts\Combat\AttackDebugEffect.cs" />
-    <Compile Include="Assets\Scripts\Combat\Enemy.cs" />
-    <Compile Include="Assets\Scripts\Combat\KnockbackAttackEffect.cs" />
+    <Compile Include="Assets\Scripts\Combat\MonoBehaviours\Enemy.cs" />
+    <Compile Include="Assets\Scripts\Combat\MonoBehaviours\CombatMouseTest.cs" />
+    <Compile Include="Assets\Scripts\Combat\Attack.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
