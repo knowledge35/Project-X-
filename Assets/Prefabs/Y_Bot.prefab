@@ -1166,7 +1166,8 @@ GameObject:
   - component: {fileID: 1156925274208884278}
   - component: {fileID: 4712081058894469561}
   - component: {fileID: 4712081058894469563}
-  - component: {fileID: 4712081058894469562}
+  - component: {fileID: 4693606297719945993}
+  - component: {fileID: 6426667945236928385}
   m_Layer: 0
   m_Name: Y_Bot
   m_TagString: Untagged
@@ -1201,7 +1202,7 @@ Animator:
   m_GameObject: {fileID: 5595094786184435446}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 88fb68299f589614fbe2efcdbf35bff8, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: dddb0764ff18489469dd6f1ae5008979, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -1224,7 +1225,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 80
   m_CollisionDetection: 0
 --- !u!65 &4712081058894469563
 BoxCollider:
@@ -1239,7 +1240,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.46, y: 1.78, z: 0.38}
   m_Center: {x: 0, y: 0.9, z: 0}
---- !u!195 &4712081058894469562
+--- !u!195 &4693606297719945993
 NavMeshAgent:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1261,6 +1262,19 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &6426667945236928385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5595094786184435446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b074306b2448ec14c8a00e22c516d88f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  demoAttack: {fileID: 11400000, guid: 85416450564bb8145b076c085a949f85, type: 2}
 --- !u!1 &5647984923186312621
 GameObject:
   m_ObjectHideFlags: 0

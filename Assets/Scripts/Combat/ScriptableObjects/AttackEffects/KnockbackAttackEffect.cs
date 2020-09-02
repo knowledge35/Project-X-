@@ -9,6 +9,8 @@ public class KnockbackAttackEffect : AttackEffect
     public override void OnAttack(GameObject attacker, GameObject defender, AttackDefinition attackDefinition, Attack attack)
     {
         Rigidbody rb = defender.GetComponent<Rigidbody>();
-        rb?.AddForce(attacker.transform.forward * forceAmount);
+        Vector3 forceDir = (defender.transform.position - attacker.transform.position).normalized;
+        forceDir.y += 0.5f;
+        rb?.AddForce(forceDir * forceAmount);
     }
 }

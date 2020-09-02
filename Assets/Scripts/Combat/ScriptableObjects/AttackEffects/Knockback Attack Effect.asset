@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bd384471b97be645b388699beb477df, type: 3}
   m_Name: Knockback Attack Effect
   m_EditorClassIdentifier: 
-  forceAmount: 500
+  forceAmount: 250

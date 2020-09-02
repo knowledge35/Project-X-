@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: DemoAttack
   m_EditorClassIdentifier: 
   attackEffects:
-  - {fileID: 11400000, guid: a0de367498d6d684db4e82b4a94732cf, type: 2}
-  - {fileID: 11400000, guid: 5a0e1736583cd424cb83c6389337290e, type: 2}
+  - {fileID: 11400000, guid: 2622cf2c7f1126c45be8839fe6a897bc, type: 2}
   coolDown: 2
   range: 2
   minDamage: 10
